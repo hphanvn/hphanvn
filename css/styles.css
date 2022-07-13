@@ -2,6 +2,7 @@ body {
   margin: 0;
   text-align: center;
   font-family: font-family: 'Merriweather', serif;
+  background-color: #EAF6F6;
 }
 
 h1 {
@@ -60,4 +61,16 @@ hr {
   position: absolute;
   left: 700px;
   bottom: 300px;
+}
+
+.showProjectLine{
+  padding-top: 2.5rem;
+  background-color: #EAF6F6;
+}
+
+
+.projectCollapse{
+  margin-top: 0;
+  border-width: thick;
+  border-color: red;
 }
