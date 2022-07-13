@@ -1,5 +1,5 @@
 if (window.matchMedia("(max-width: 767px)").matches) {
-  $(window).on("tap", function(){
+  $(window).on("scrollstart", function(){
     /* Act on the event */
     $("#projectCollapse").fadeIn('slow');
   });
