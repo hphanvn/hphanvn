@@ -70,6 +70,7 @@ $(document).ready(function() {
   $(document).keydown(function() {
     /* Act on the event */
     $("#level-title").text("Level 1");
+    $("#end-game").text("");
     nextLevel = 1;
     gamePattern = [];
     userClickPattern = [];
